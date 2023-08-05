@@ -1,0 +1,12 @@
+name: MessagePlugin
+version: '${project.version}'
+main: me.fakepumpkin7.messageplugin.MessagePlugin
+commands:
+  message:
+    description: Message another player
+    usage: /<command> player message
+    aliases: [m, msg]
+  reply:
+    description: Reply to last message
+    usage: /<command> message
+    aliases: r
